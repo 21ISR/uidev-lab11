@@ -82,6 +82,9 @@ header{
  button:active{
     background-color: #252525;
  }
+ div{
+   display:none
+}
  @media screen and (min-width:200px) and (max-width:768px) {
    .tovar{
       display: flex;
@@ -120,5 +123,28 @@ header{
       font-size: 56px;
       font-family: "Roboto";
   }
+  div{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   list-style: none;
+   font-family: "Roboto";
+   padding: 10px 20px;
+   background-color: #525252;
+
+}
+select{
+   border:1px solid gray;
+   border-radius: 5px; 
+}
+select:focus{
+       outline: none;
+}
+{
+   display: none;
+}
+}
+#main_nav{
+   display: none;
 }
  
